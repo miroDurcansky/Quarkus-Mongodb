@@ -11,6 +11,7 @@ public class FruitTest {
     @Inject
     FruitService fruitService;
 
+    @Ignore
     @Test
     void addFruitInMongoDB(){
         Fruit fruit = new Fruit();
